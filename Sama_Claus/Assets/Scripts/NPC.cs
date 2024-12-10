@@ -29,7 +29,7 @@ public class NPC : MonoBehaviour
 
     IEnumerator BecomeAngry()
     {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(10f);
 
         // Change the sprite to Sama_angry
         if (angrySprite != null)
