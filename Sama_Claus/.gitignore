@@ -7,9 +7,27 @@ Logs/
 # Ignore temporary files
 Temp/
 
-# Ignore backups
+# Ignore user-specific settings
 UserSettings/
 
-Assets/YughuesFreeBushes2018
+# Ignore specific asset folders
+Assets/YughuesFreeBushes2018/
+Assets/Flashlight/
 
-Assets/Flashlight
+# Ignore specific scene folders
+Scenes/building/
+Scenes/player/
+
+# Ignore generated files and metadata
+*.meta
+*.cubemap
+
+# Ignore Unity crash reports and temp files
+*.pidb
+*.csproj
+*.sln
+*.unityproj
+
+# Ignore LFS leftovers and backup files
+.DS_Store
+Thumbs.db
