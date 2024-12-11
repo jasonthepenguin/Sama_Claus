@@ -31,3 +31,6 @@ Scenes/player/
 # Ignore LFS leftovers and backup files
 .DS_Store
 Thumbs.db
+
+Sama_Claus/Assets/Real Stars Skybox/StarSkybox04NamedConstell/CubemapStarsNamedConstellations.cubemap
+
