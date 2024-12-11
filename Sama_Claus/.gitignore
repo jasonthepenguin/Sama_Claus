@@ -1,0 +1,11 @@
+# Ignore Unity library files
+Library/
+
+# Ignore logs
+Logs/
+
+# Ignore temporary files
+Temp/
+
+# Ignore backups
+UserSettings/
