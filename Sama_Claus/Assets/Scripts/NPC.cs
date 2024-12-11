@@ -8,7 +8,7 @@ public class NPC : MonoBehaviour
     public Transform player;
 
     // Adjust this speed in the Inspector if desired
-    public float moveSpeed = 2f;
+    public float moveSpeed = 4f;
 
     private SpriteRenderer spriteRenderer;
     private bool isAngry = false;
@@ -29,7 +29,7 @@ public class NPC : MonoBehaviour
 
     IEnumerator BecomeAngry()
     {
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(5f);
 
         // Change the sprite to Sama_angry
         if (angrySprite != null)
@@ -63,8 +63,10 @@ public class NPC : MonoBehaviour
         // If angry, move towards the player
         if (isAngry)
         {
+
+            Vector3 targetPosition = new Vector3(player.position.x, transform.position.y, player.position.z);
             // Move NPC closer to the player at moveSpeed
-            transform.position = Vector3.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, targetPosition, moveSpeed * Time.deltaTime);
         }
     }
 }
