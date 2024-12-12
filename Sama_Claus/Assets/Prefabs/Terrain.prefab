@@ -3,8 +3,8 @@
 --- !u!1 &3414842971159723540
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 4993490422166982056, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+  m_PrefabInstance: {fileID: 1402229509112587198}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -21,8 +21,8 @@ GameObject:
 --- !u!4 &2305205023597113963
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+  m_PrefabInstance: {fileID: 1402229509112587198}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3414842971159723540}
   serializedVersion: 2
@@ -36,8 +36,8 @@ Transform:
 --- !u!218 &6164359192779831037
 Terrain:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5427722582564047201, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+  m_PrefabInstance: {fileID: 1402229509112587198}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3414842971159723540}
   m_Enabled: 1
@@ -76,8 +76,8 @@ Terrain:
 --- !u!154 &7196669458155774532
 TerrainCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 777952607904384911, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+  m_PrefabInstance: {fileID: 1402229509112587198}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3414842971159723540}
   m_Material: {fileID: 0}
@@ -93,3 +93,60 @@ TerrainCollider:
   serializedVersion: 2
   m_TerrainData: {fileID: 15600000, guid: 76b65e82c933e49208808f7e2d857d4b, type: 2}
   m_EnableTreeColliders: 1
+--- !u!1001 &1402229509112587198
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -97.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -92.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2984577541096940692, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4993490422166982056, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
+      propertyPath: m_Name
+      value: Terrain
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 55deb1a06cd14416eb2b59e937136a1c, type: 3}
