@@ -6,12 +6,14 @@ public class Flashlight : MonoBehaviour
 {
 
     [SerializeField] GameObject FlashLightLight;
+    [SerializeField] AudioClip buttonPressClip;
     private bool FlashLightActive = true;
     private float defaultIntensity;
 
     // Start is called before the first frame update
     void Start()
     {
+       // defaultIntensity = FlashLightLight.
         FlashLightActive = true;
         FlashLightLight.gameObject.SetActive(true);
     }
@@ -22,6 +24,9 @@ public class Flashlight : MonoBehaviour
 
         // turn on and off flashlight with F
         if(Input.GetKeyDown(KeyCode.F) ){
+
+            // play button sound
+            SoundManager.instance.PlaySoundFXClip(buttonPressClip, transform, 1f);
 
             if(FlashLightActive)
             {

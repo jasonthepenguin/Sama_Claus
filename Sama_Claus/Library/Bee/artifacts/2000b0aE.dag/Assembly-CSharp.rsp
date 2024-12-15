@@ -338,6 +338,7 @@
 "Assets/Scripts/MouseMovement.cs"
 "Assets/Scripts/NPC.cs"
 "Assets/Scripts/PlayerMovement.cs"
+"Assets/Scripts/SoundManager.cs"
 -langversion:9.0
 /deterministic
 /optimize+
