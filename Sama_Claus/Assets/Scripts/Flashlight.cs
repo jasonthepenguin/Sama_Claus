@@ -7,6 +7,7 @@ public class Flashlight : MonoBehaviour
 
     [SerializeField] GameObject FlashLightLight;
     private bool FlashLightActive = true;
+    private float defaultIntensity;
 
     // Start is called before the first frame update
     void Start()
