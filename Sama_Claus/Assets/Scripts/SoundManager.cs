@@ -37,4 +37,29 @@ public class SoundManager : MonoBehaviour
         Destroy(audioSource.gameObject, clipLength);
     }
 
+
+    public void PlayRandomSoundFXClip(AudioClip[] audioClip, Transform spawnTransform, float volume)
+    {
+        int random = Random.Range(0, audioClip.Length);
+
+        // spawn in gameObject
+        AudioSource audioSource = Instantiate(soundFXObject, spawnTransform.position, Quaternion.identity);
+
+        // assign the audioClip
+        audioSource.clip = audioClip[random];
+
+        // assign volume
+        audioSource.volume = volume;
+
+        // play sound
+        audioSource.Play();
+
+        // get length of sound FX clip
+        float clipLength = audioSource.clip.length;
+
+        // destroy the clip after its done playing
+        Destroy(audioSource.gameObject, clipLength);
+
+    }
+
 }

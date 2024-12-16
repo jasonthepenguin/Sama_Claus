@@ -16,6 +16,9 @@ public class light_flicker : MonoBehaviour
     private Light spotLight;
     private bool isFlickering = false;
 
+    // Reference to the lamps audio
+    private AudioSource lampAudio;
+
     void Start()
     {
         spotLight = GetComponent<Light>();
