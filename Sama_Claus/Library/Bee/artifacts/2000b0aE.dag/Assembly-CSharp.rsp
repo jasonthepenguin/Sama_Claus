@@ -341,6 +341,10 @@
 "Assets/Scripts/NPC.cs"
 "Assets/Scripts/PlayerMovement.cs"
 "Assets/Scripts/SoundManager.cs"
+"Assets/Scripts/StateMachine/ConcreteStates/PlayerWalkingState.cs"
+"Assets/Scripts/StateMachine/Player.cs"
+"Assets/Scripts/StateMachine/PlayerState.cs"
+"Assets/Scripts/StateMachine/PlayerStateMachine.cs"
 -langversion:9.0
 /deterministic
 /optimize+
