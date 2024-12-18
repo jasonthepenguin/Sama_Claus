@@ -336,6 +336,7 @@
 "Assets/Scripts/AmbientSoundManager.cs"
 "Assets/Scripts/EntranceTrigger.cs"
 "Assets/Scripts/Flashlight.cs"
+"Assets/Scripts/LadderTrigger.cs"
 "Assets/Scripts/light_flicker.cs"
 "Assets/Scripts/MouseMovement.cs"
 "Assets/Scripts/NPC.cs"

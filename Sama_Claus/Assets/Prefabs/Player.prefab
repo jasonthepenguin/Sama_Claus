@@ -119,9 +119,9 @@ GameObject:
   - component: {fileID: 5598972371143281871}
   - component: {fileID: 4913159464893950657}
   - component: {fileID: 4928624531427561234}
-  - component: {fileID: 5148555549658046963}
   - component: {fileID: 1451809511802281173}
   - component: {fileID: 6452413659755822868}
+  - component: {fileID: 7126160392987502886}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -246,26 +246,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &5148555549658046963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4238557910152591698}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c3a67b31ab6bf49e092b4b4ecbc63b3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 12
-  gravity: -19.62
-  jumpHeight: 3
-  groundCheck: {fileID: 3549463023005250054}
-  groundDistance: 0.4
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 8
 --- !u!114 &1451809511802281173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +275,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FlashLightLight: {fileID: 7335224349243575942}
   buttonPressClip: {fileID: 8300000, guid: 1000d0400258d475fb24ed99c6118648, type: 3}
+--- !u!114 &7126160392987502886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4238557910152591698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a14dac226ade4e3cbb7e4d73ea1bcbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 4928624531427561234}
+  speed: 12
+  gravity: -19.62
+  jumpHeight: 3
+  groundCheck: {fileID: 3549463023005250054}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 8
+  velocity: {x: 0, y: 0, z: 0}
+  isGrounded: 0
+  isMoving: 0
+  lastPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &7335224349243575942
 GameObject:
   m_ObjectHideFlags: 0
