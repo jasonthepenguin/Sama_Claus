@@ -83,7 +83,8 @@ public class PlayerWalkingState : PlayerState
             {
                 // Climbing: Override vertical velocity to move up/down the ladder.
                 // No gravity applies in this scenario.
-                player.velocity.y = verticalInput * player.speed;
+                //player.velocity.y = verticalInput * player.speed;
+                player.velocity.y = verticalInput * player.climbSpeed;
             }
             else
             {

@@ -10,6 +10,8 @@ public class Player : MonoBehaviour
     public float gravity = -9.81f * 2;
     public float jumpHeight = 3f;
 
+    public float climbSpeed = 2f;
+
     public Transform groundCheck;
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
@@ -41,7 +43,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         nearLadder = false;
-        
+
         StateMachine.Initialize(WalkState);
         
     }
