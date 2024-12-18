@@ -74,4 +74,15 @@ public class SoundManager : MonoBehaviour
 
     }
 
+    public AudioSource PlayLoopingAmbientSound(AudioClip clip, float volume = 1f, bool loop = true)
+    {
+        AudioSource audioSource = Instantiate(soundFXObject);
+        audioSource.clip = clip;
+        audioSource.volume = volume;
+        audioSource.loop = loop;
+        audioSource.spatialBlend = 0f; // Probably want ambient sounds as 2D
+        audioSource.Play();
+        return audioSource;
+    }
+
 }
