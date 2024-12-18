@@ -62,4 +62,16 @@ public class SoundManager : MonoBehaviour
 
     }
 
+    public void PlayLoopingSoundFXClip(AudioClip audioClip, Transform spawnTransform, float volume )
+    {
+        AudioSource audioSource = Instantiate(soundFXObject, spawnTransform.position, Quaternion.identity);
+        audioSource.clip = audioClip;
+        audioSource.volume = volume;
+        audioSource.loop = true;
+        audioSource.Play();
+
+        // not destroying so it keeps looping. other script will deal with this
+
+    }
+
 }
