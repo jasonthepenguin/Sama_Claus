@@ -920,6 +920,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 4938908799506720510, guid: f84b05b5c4ef24033b370cad0961cc55, type: 3}
+      propertyPath: song
+      value: 
+      objectReference: {fileID: 8300000, guid: fd0790a3162974cb997aa36fe77a3341, type: 3}
+    - target: {fileID: 4938908799506720510, guid: f84b05b5c4ef24033b370cad0961cc55, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 869296438}
@@ -927,6 +931,10 @@ PrefabInstance:
       propertyPath: snowPrefab
       value: 
       objectReference: {fileID: 3995261348905561636, guid: 9bf86a7d18def4bbc8df44fdf49b01e6, type: 3}
+    - target: {fileID: 4938908799506720510, guid: f84b05b5c4ef24033b370cad0961cc55, type: 3}
+      propertyPath: directionalLight
+      value: 
+      objectReference: {fileID: 1114954120}
     - target: {fileID: 5005475590918328322, guid: f84b05b5c4ef24033b370cad0961cc55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.59

@@ -11,10 +11,13 @@ public class Roof_Switch : MonoBehaviour, I_Interactable
 
     [SerializeField] private GameObject snowPrefab;
     [SerializeField] private Transform player;
-    [SerializeField] private float duration = 10f;
+
+    [SerializeField] private Light directionalLight;
+    private float duration = 60f;
     private float heightOffset = 40f;
 
     [SerializeField] AudioClip wallSwitchClip;
+    [SerializeField] AudioClip song;
 
     void Start()
     {
@@ -30,6 +33,15 @@ public class Roof_Switch : MonoBehaviour, I_Interactable
         // Spawn the snow above the players head
         Vector3 spawnPos = player.position + Vector3.up * heightOffset;
         GameObject snowInstance = Instantiate(snowPrefab, spawnPos, Quaternion.identity);
+
+        // directional light intensity
+        if (directionalLight != null)
+        {
+          directionalLight.intensity = 0.6f;
+        }
+
+        // coroutine for song play delay
+        StartCoroutine(PlaySongDelayed());
         // coroutine to destroy it after some time
         StartCoroutine(DestroyAfterTime(snowInstance, duration));
         first_use = false;
@@ -39,6 +51,18 @@ public class Roof_Switch : MonoBehaviour, I_Interactable
   private IEnumerator DestroyAfterTime(GameObject obj, float time)
   {
     yield return new WaitForSeconds(time);
+    if(directionalLight != null)
+    {
+      directionalLight.intensity = 0.3f;
+    }
     Destroy(obj);
+  }
+
+  private IEnumerator PlaySongDelayed()
+  {
+    // wait 1 sec
+    yield return new WaitForSeconds(1f);
+    // now play
+    SoundManager.instance.PlaySoundFXClip(song, transform, 1f);
   }
 }
