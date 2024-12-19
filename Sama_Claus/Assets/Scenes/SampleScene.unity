@@ -385,6 +385,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 15.149, y: 22.914, z: 0}
+--- !u!4 &869296438 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4230761398259843372, guid: 29ea8b159626f4809a44c4c89ea7f317, type: 3}
+  m_PrefabInstance: {fileID: 639987210}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &895820985
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -914,6 +919,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4938908799506720510, guid: f84b05b5c4ef24033b370cad0961cc55, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 869296438}
+    - target: {fileID: 4938908799506720510, guid: f84b05b5c4ef24033b370cad0961cc55, type: 3}
+      propertyPath: snowPrefab
+      value: 
+      objectReference: {fileID: 3995261348905561636, guid: 9bf86a7d18def4bbc8df44fdf49b01e6, type: 3}
     - target: {fileID: 5005475590918328322, guid: f84b05b5c4ef24033b370cad0961cc55, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.59
