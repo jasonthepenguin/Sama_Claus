@@ -9,6 +9,8 @@ public class Roof_Switch : MonoBehaviour, I_Interactable
 
     public Animator animator;
 
+    public GameObject santa;
+
     [SerializeField] private GameObject snowPrefab;
     [SerializeField] private Transform player;
 
@@ -30,6 +32,14 @@ public class Roof_Switch : MonoBehaviour, I_Interactable
         //print("we are interacting!");
         SoundManager.instance.PlaySoundFXClip(wallSwitchClip, transform, 1f);
         animator.SetTrigger("FLIP");
+
+        Animator santa_anim = santa.GetComponent<Animator>();
+        if(santa_anim != null)
+        {
+          santa_anim.SetTrigger("FLY");
+        }
+
+
         // Spawn the snow above the players head
         Vector3 spawnPos = player.position + Vector3.up * heightOffset;
         GameObject snowInstance = Instantiate(snowPrefab, spawnPos, Quaternion.identity);

@@ -364,6 +364,8 @@
 "Assets/Scripts/StateMachine/Player.cs"
 "Assets/Scripts/StateMachine/PlayerState.cs"
 "Assets/Scripts/StateMachine/PlayerStateMachine.cs"
+"Assets/Vefects/Trails VFX URP/Scripts/Demo_FreeCam.cs"
+"Assets/Vefects/Trails VFX URP/Scripts/Demo_TurningAround.cs"
 -langversion:9.0
 /deterministic
 /optimize+
