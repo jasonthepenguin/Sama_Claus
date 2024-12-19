@@ -18,6 +18,8 @@ public class Player : MonoBehaviour
 
     public bool nearLadder;
 
+    public float interactDistance = 3f;
+
 
 
     [HideInInspector] public Vector3 velocity;
@@ -50,7 +52,29 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
+
+        // state machine update 
         StateMachine.CurrentPlayerState.FrameUpdate();
+
+        // interaction check
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            // Raycast from center of screen (cam forward)
+            Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5f, 0.5f, 0f));
+            RaycastHit hit;
+
+            if (Physics.Raycast(ray, out hit, interactDistance))
+            {
+
+                //print(hit);
+                // Check if object has I_Interactable interface
+                I_Interactable interactable = hit.collider.GetComponent<I_Interactable>();
+                if(interactable != null)
+                {
+                    interactable.Interact();
+                }
+            }
+        }
     }
 
     private void FixedUpdate()
