@@ -53,7 +53,7 @@ public class Roof_Switch : MonoBehaviour, I_Interactable
     yield return new WaitForSeconds(time);
     if(directionalLight != null)
     {
-      directionalLight.intensity = 0.3f;
+      directionalLight.intensity = 0.1f;
     }
     Destroy(obj);
   }
