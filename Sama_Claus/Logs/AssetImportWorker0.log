@@ -1122,3 +1122,124 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:scripting/precompiled-assembly-types:Assembly-CSharp: 68d5704b2e3244c9f95b0b8ae7d8945c -> cf779debe00675cc281ebcf0a60e8452
+========================================================================
+Received Import Request.
+  Time since last request: 230.543454 seconds.
+  path: Assets/Prefabs/OpenAI.prefab
+  artifactKey: Guid(7d14cd1e958914be09cea3ae11cbb74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/OpenAI.prefab using Guid(7d14cd1e958914be09cea3ae11cbb74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5346e056c08096b12bd027dc135be8fb') in 0.063262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 491
+========================================================================
+Received Import Request.
+  Time since last request: 368.941291 seconds.
+  path: Assets/DesksCollection-Mavi3D
+  artifactKey: Guid(4e797f88efde60d4a92c0f2d90fb14fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D using Guid(4e797f88efde60d4a92c0f2d90fb14fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8e2d9d70a58307ecc5878e374290c5b7') in 0.000999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.148837 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs
+  artifactKey: Guid(64b4d97b96f2acb4fb28bca608a23171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs using Guid(64b4d97b96f2acb4fb28bca608a23171) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ccf7a8aecd1e3751b63f6f630c839148') in 0.000549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.075604 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In
+  artifactKey: Guid(d47ed4cd58b6e634aa33f9d3f571f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In using Guid(d47ed4cd58b6e634aa33f9d3f571f93a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7df4de4c281c99db0257af1c1fb3033d') in 0.000518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.044511 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk01.prefab
+  artifactKey: Guid(2a57a7798f8525c43aac030366320aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk01.prefab using Guid(2a57a7798f8525c43aac030366320aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '95498110063d97cdc102c484a658690f') in 0.290057 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk05.prefab
+  artifactKey: Guid(37b67a2f2323c7c4791f1d0cfcc6014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk05.prefab using Guid(37b67a2f2323c7c4791f1d0cfcc6014d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '5b0bd7956b75d6eb83741b63e202f486') in 0.242856 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 25
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk07.prefab
+  artifactKey: Guid(46c7b521e2cae45409762653fec9d31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk07.prefab using Guid(46c7b521e2cae45409762653fec9d31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9eb73dd3705741fd864ac0d8744f91f5') in 0.010860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk03.prefab
+  artifactKey: Guid(9dd50cd7000873d48b9d1b3c5a4c8fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk03.prefab using Guid(9dd50cd7000873d48b9d1b3c5a4c8fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7275e8abac3d44dd60904e89667b3ea5') in 0.018939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk04.prefab
+  artifactKey: Guid(c8f405f23ea67f946b0b161c3debda09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk04.prefab using Guid(c8f405f23ea67f946b0b161c3debda09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8fd2ba73d42b6acf5c56a389878fa2d1') in 0.010603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk06.prefab
+  artifactKey: Guid(96999a63268a6dd43acd1144d0b2ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk06.prefab using Guid(96999a63268a6dd43acd1144d0b2ad4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '50ae867db808a4dcfec3533f6e69860c') in 0.010346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk09.prefab
+  artifactKey: Guid(fcb22faa59bdf1349a5e9bf09dc4e0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk09.prefab using Guid(fcb22faa59bdf1349a5e9bf09dc4e0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '066ae4a4a8449d5639b7b9dfe94cc7a1') in 0.009121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk10.prefab
+  artifactKey: Guid(2075853ac50f17340b9c8a11b7aea699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk10.prefab using Guid(2075853ac50f17340b9c8a11b7aea699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6117f545ddbbcec280617c7161cf65db') in 0.008829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 89, details: Operation aborted.
+AssetImportWorker is now disconnected from the server
+Process exiting
